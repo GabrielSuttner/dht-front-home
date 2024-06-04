@@ -132,10 +132,6 @@ const navigation: { name: string; href: string }[] = [
   {
     name: 'about',
     href: '/about'
-  },
-  {
-    name: 'features',
-    href: '/features'
   }
 ];
 
