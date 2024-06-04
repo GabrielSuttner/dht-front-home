@@ -12,7 +12,8 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
     "tailwind": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
-    "tailwind-build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify"
+    "tailwind-build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --minify",
+    "move-build": "rm -r /var/www/decorativehardwaretechnologies/html/front/* && cp -r ./dist/* /var/www/decorativehardwaretechnologies/html/front/"
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.22",
