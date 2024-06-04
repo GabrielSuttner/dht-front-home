@@ -142,7 +142,7 @@ const navigation: { name: string; href: string }[] = [
 const loginRoute = computed(() => {
   return import.meta.env.VITE_APP_ENV === 'development'
     ? 'http://localhost:5173/u/profile'
-    : 'https://decorativehardwaretechnologies.com/p/login';
+    : 'https://decorativehardwaretechnologies.com/u/profile';
 });
 
 function handleRoute() {
